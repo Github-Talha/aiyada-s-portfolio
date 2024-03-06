@@ -7,6 +7,18 @@
   text-decoration: none;
   list-style: none;
 }
+@font-face {
+  font-family: "Averta CY";
+  src: url("./assets/AvertaCY-Regular.otf");
+  src: url("./assets/AvertaCY-Semibold.otf");
+  src: url("./assets/AvertaCY-Bold.otf");
+}
+@font-face {
+  font-family: "Neue Machina";
+  src: url("./assets/NeueMachina-Regular.otf");
+  src: url("./assets/NeueMachina-Medium.otf");
+  src: url("./assets/NeueMachina-Bold.otf");
+}
 :root {
   --primary-font-color: white;
   --secondary-font-color: rgba(255, 255, 255, 0.6);
@@ -27,6 +39,13 @@ body {
   display: flex;
   align-items: center;
   column-gap: 48px;
+  color: #fff;
+  font-family: "Averta CY";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
 }
 .getStartedBtn-arrow {
   display: flex;
@@ -84,7 +103,7 @@ body {
   width: 802px;
   color: rgba(255, 255, 255, 0.7);
   text-align: center;
-  font-family: "Averta CY";
+  font-family: "Averta cv";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
