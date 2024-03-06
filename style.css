@@ -116,7 +116,7 @@ body {
   height: 1px;
   color: rgba(255, 255, 255, 0.7);
 }
-.our-service-section{
+.our-service-section {
   display: flex;
   flex-direction: column;
   row-gap: 120px;
@@ -188,4 +188,105 @@ body {
   background: rgba(255, 255, 255, 0.02);
 }
 /* Our service style ended  */
+/* Client feedback section started  */
+.client-feedback-title {
+  color: #fff;
+  font-family: "Neue Machina";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 48px */
+  text-transform: capitalize;
+  margin: 32px 0 56px 0;
+}
+.client-feedback-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 24px;
+  margin-bottom: 180px;
+}
+.client-feedback-card {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(8px);
+}
+.client-title {
+  color: #fff;
+  font-family: "Inria Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 38.4px */
+  text-transform: capitalize;
+  padding: 24px 12px 32px 12px;
+}
+.client-name {
+  color: #fff;
+  font-family: "Neue Machina";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 32px */
+  text-transform: capitalize;
+}
+.client-profession {
+  color: rgba(255, 255, 255, 0.72);
+  font-family: "Averta CY";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+  text-transform: capitalize;
+}
+.name-rating {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 12px 29px 12px;
+}
+/* Client feedback section ended  */
+/* Team member style started */
+.team-member-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px 24px;
+  margin-bottom: 180px;
+}
+.team-member-image {
+  background: #6e50ff;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  border-radius: 12px;
+  height: 312px;
+}
+.team-member-image img {
+  background: transparent;
+}
+.team-member-info {
+  display: flex;
+  justify-content: space-between;
+}
+.team-member-name {
+  color: #fff;
+  font-family: "Neue Machina";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 32px */
+  text-transform: capitalize;
+  margin: 16px 0 2px 0;
+}
+.team-member-profession {
+  color: rgba(255, 255, 255, 0.72);
+  font-family: "Averta CY";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+  text-transform: capitalize;
+}
+.team-member-info-icon {
+  margin-top: 16px;
+}
+/* Team member style ended */
 /* Main style ended  */
