@@ -67,6 +67,7 @@ body {
   border-radius: 24px;
   border: 0.5px solid rgba(255, 255, 255, 0.2);
   background: rgba(255, 255, 255, 0.02);
+  margin-bottom: 180px;
 }
 .hero-section h1 {
   color: #fff;
@@ -90,11 +91,15 @@ body {
   line-height: normal;
   text-transform: capitalize;
 }
-.hero-button-image{
+.hero-button-image {
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
+}
+.hero-button-image > img {
+  width: 587px;
+  height: 571px;
 }
 .hero-invest-btn {
   width: 175px;
@@ -103,3 +108,84 @@ body {
 }
 /* hero style ended */
 /* Header style ended */
+
+/* Main style started  */
+/* Our service style started  */
+.hr {
+  width: 100%;
+  height: 1px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.our-service-section{
+  display: flex;
+  flex-direction: column;
+  row-gap: 120px;
+  margin-bottom: 180px;
+}
+.our-service-heading {
+  color: #fff;
+  font-family: "Neue Machina";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 48px */
+  text-transform: capitalize;
+  margin: 32px 0 0 0;
+}
+.single-service-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.service-number {
+  align-self: flex-start;
+  margin-top: 16px;
+  color: #000;
+  font-family: "Averta CY";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  padding: 13px 15px;
+  background: var(--button-color);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+.single-service-title {
+  width: 576px;
+  color: #fff;
+  font-family: "Neue Machina";
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 80px */
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+.single-service-paragraph {
+  width: 576px;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Averta CY";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 25.2px */
+  text-transform: capitalize;
+  margin-bottom: 48px;
+}
+.single-service-btn {
+  width: 174px;
+}
+.service-image {
+  display: inline-flex;
+  padding: 60px 154px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 12px;
+  border: 0.5px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.02);
+}
+/* Our service style ended  */
+/* Main style ended  */
