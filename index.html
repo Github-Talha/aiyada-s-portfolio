@@ -7,7 +7,7 @@
     <title>Aiyada</title>
     <!-- Css link -->
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon">
 </head>
 
 <body>
@@ -35,7 +35,15 @@
                                 </div>
                             </div>
                         </a>
-
+                    </ul>
+                    <!-- Mobile Menu Icon -->
+                    <div class="mobile-menu-icon">&#9776;</div>
+                    <!-- Dropdown Menu -->
+                    <ul class="dropdown-menu">
+                        <li><a class="menu-item" href="#">Meet Aiyada</a></li>
+                        <li><a class="menu-item" href="#">Resources</a></li>
+                        <li><a class="menu-item" href="#">Log in</a></li>
+                        <li><a class="menu-item" href="#">Get started</a></li>
                     </ul>
                 </div>
             </section>
@@ -510,8 +518,75 @@
         </section>
         <!-- Team section ended-->
         <hr class="hr">
+        <!-- Why us section started -->
+        <section class="why-us-section">
+            <!-- why us image -->
+            <div class="why-us-image">
+                <img src="./assets/Sent crypto coin confirmation 1.png" alt="">
+            </div>
+            <!-- why us info -->
+            <div class="why-us-info">
+                <!-- why us title and paragraph  -->
+                <div class="why-us-title-paragraph">
+                    <h1 class="why-us-heading">Aiyada Is a Wall Street Investment Firm For Modern Investors.</h1>
+                    <p class="why-us-paragraph">Cash management is the art of optimizing the flow of funds within an
+                        organization or individual's financial ecosystem.</p>
+                    <hr class="hr">
+                </div>
+                <!-- why us more details  -->
+                <div class="why-us-more-details">
+                    <h1 class="more-details-heading">
+                        Why Us?
+                    </h1>
+                    <!-- arrow and paragraph -->
+                    <div class="why-us-more-details-arrow-paragraph">
+                        <img src="./assets/arrow-down.svg" alt="">
+                        <p class="why-us-more-details-paragraph">Cash management is the art of optimizing the flow of
+                            funds within an organization or
+                            individual's financial ecosystem. It involves strategically </p>
+                    </div>
+                    <!-- arrow and paragraph -->
+                    <div class="why-us-more-details-arrow-paragraph">
+                        <img src="./assets/arrow-down.svg" alt="">
+                        <p class="why-us-more-details-paragraph">Cash management is the art of optimizing the flow of
+                            funds within an organization or
+                            individual's financial ecosystem. It involves strategically </p>
+                    </div>
+                    <!-- arrow and paragraph -->
+                    <div class="why-us-more-details-arrow-paragraph">
+                        <img src="./assets/arrow-down.svg" alt="">
+                        <p class="why-us-more-details-paragraph">Cash management is the art of optimizing the flow of
+                            funds within an organization or
+                            individual's financial ecosystem. It involves strategically </p>
+                    </div>
+                    <!-- arrow and paragraph -->
+                    <div class="why-us-more-details-arrow-paragraph">
+                        <img src="./assets/arrow-down.svg" alt="">
+                        <p class="why-us-more-details-paragraph">Cash management is the art of optimizing the flow of
+                            funds within an organization or
+                            individual's financial ecosystem. It involves strategically </p>
+                    </div>
+                </div>
+                <!-- button copy from get started button -->
+                <div class="getStartedBtn-arrow single-service-btn">
+                    <li class="menu-item">Read More</li>
+                    <div class="arrow-icon-div">
+                        <img class="arrow-icon" src="./assets/arrow.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Why us section ended -->
     </main>
     <!-- Main section ended -->
+
+    <!-- JavaScript section started -->
+    <script>
+        document.querySelector('.mobile-menu-icon').addEventListener('click', function () {
+            document.querySelector('.dropdown-menu').style.display =
+                document.querySelector('.dropdown-menu').style.display === 'none' ? 'flex' : 'none';
+        });
+    </script>
 </body>
 
 </html>

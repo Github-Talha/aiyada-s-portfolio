@@ -76,6 +76,44 @@ body {
   width: 15px;
   background: transparent;
 }
+.dropdown-menu {
+  display: none;
+}
+/* New styles for responsive design */
+@media only screen and (max-width: 992px) {
+  .menu-ul {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+    cursor: pointer;
+    font-size: 24px;
+    color: #fff;
+  }
+
+  .dropdown-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 60px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  .dropdown-menu a {
+    padding: 12px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: 0.2s;
+    border-radius: 4px;
+  }
+  .dropdown-menu a:hover {
+    background: #beef08;
+    color: #000;
+  }
+}
 /* hero style started  */
 .hero-section {
   width: 100%;
@@ -158,7 +196,7 @@ body {
 }
 .service-number {
   align-self: flex-start;
-  margin-top: 16px;
+  margin-top: 4px;
   color: #000;
   font-family: "Averta CY";
   font-size: 18px;
@@ -308,4 +346,48 @@ body {
   margin-top: 16px;
 }
 /* Team member style ended */
+
+/* Why us style started */
+.why-us-section {
+  display: grid;
+  column-gap: 24px;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 80px;
+}
+.why-us-heading {
+  color: #fff;
+  font-family: "Neue Machina";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 48px */
+  text-transform: capitalize;
+  margin-bottom: 32px;
+}
+.why-us-paragraph {
+  color: rgba(255, 255, 255, 0.72);
+  font-family: "Averta CY";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 25.2px */
+  text-transform: capitalize;
+  margin-bottom: 48px;
+}
+.why-us-more-details-arrow-paragraph {
+  display: flex;
+  align-items: flex-start;
+  column-gap: 16px;
+}
+.why-us-more-details-paragraph {
+  color: rgba(255, 255, 255, 0.72);
+  font-family: "Averta CY";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 25.2px */
+  text-transform: capitalize;
+  margin-bottom: 32px;
+}
+/* Why us style ended */
 /* Main style ended  */
